@@ -1,0 +1,48 @@
+<svg width="650" height="650" viewBox="0 0 650 650" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="fur" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#C98B5B"/>
+    <stop offset="1" stop-color="#9B5C35"/>
+  </linearGradient>
+  <linearGradient id="shirt" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#2E6A50"/>
+    <stop offset="1" stop-color="#1F4D3A"/>
+  </linearGradient>
+</defs>
+<ellipse cx="325" cy="585" rx="170" ry="34" fill="#1F4D3A" opacity=".10"/>
+<circle cx="325" cy="280" r="165" fill="#fff8ed" opacity=".58"/>
+<!-- ears -->
+<path d="M190 245C110 225 82 145 122 94C166 40 235 103 254 184L190 245Z" fill="#884C30"/>
+<path d="M460 245C540 225 568 145 528 94C484 40 415 103 396 184L460 245Z" fill="#884C30"/>
+<!-- body -->
+<path d="M196 411C204 350 271 322 325 322C379 322 446 350 454 411L482 548C486 569 470 586 447 586H203C180 586 164 569 168 548L196 411Z" fill="url(#shirt)"/>
+<!-- head -->
+<path d="M176 214C182 108 261 63 325 63C389 63 468 108 474 214C482 357 416 418 325 418C234 418 168 357 176 214Z" fill="url(#fur)"/>
+<!-- muzzle -->
+<ellipse cx="325" cy="304" rx="83" ry="70" fill="#EBC49B"/>
+<!-- eyes -->
+<ellipse cx="263" cy="245" rx="17" ry="22" fill="#26352D"/>
+<ellipse cx="387" cy="245" rx="17" ry="22" fill="#26352D"/>
+<circle cx="258" cy="238" r="5" fill="#fff"/>
+<circle cx="382" cy="238" r="5" fill="#fff"/>
+<!-- nose -->
+<ellipse cx="325" cy="296" rx="23" ry="17" fill="#26352D"/>
+<path d="M325 309C325 334 292 341 275 324" stroke="#26352D" stroke-width="8" stroke-linecap="round" fill="none"/>
+<path d="M325 309C325 334 358 341 375 324" stroke="#26352D" stroke-width="8" stroke-linecap="round" fill="none"/>
+<!-- blush -->
+<circle cx="221" cy="301" r="17" fill="#EF8B67" opacity=".28"/>
+<circle cx="429" cy="301" r="17" fill="#EF8B67" opacity=".28"/>
+<!-- collar -->
+<path d="M216 380Q325 430 434 380L444 407Q325 465 206 407Z" fill="#EF8B67"/>
+<circle cx="325" cy="424" r="20" fill="#F6CC65"/>
+<!-- paws -->
+<ellipse cx="226" cy="505" rx="48" ry="76" fill="#B8764C"/>
+<ellipse cx="424" cy="505" rx="48" ry="76" fill="#B8764C"/>
+<path d="M207 518Q226 536 245 518" stroke="#6D3D29" stroke-width="6" fill="none" stroke-linecap="round"/>
+<path d="M405 518Q424 536 443 518" stroke="#6D3D29" stroke-width="6" fill="none" stroke-linecap="round"/>
+<!-- tail -->
+<path d="M450 455C544 426 563 496 526 529C496 556 466 530 493 505C512 487 484 480 455 495" stroke="#B8764C" stroke-width="34" stroke-linecap="round" fill="none"/>
+<!-- little sparkle -->
+<path d="M123 347L133 369L155 379L133 389L123 412L113 389L91 379L113 369Z" fill="#F6CC65"/>
+<path d="M535 338L542 352L556 359L542 365L535 380L528 365L514 359L528 352Z" fill="#EF8B67"/>
+</svg>
