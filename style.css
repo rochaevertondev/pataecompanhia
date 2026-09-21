@@ -247,3 +247,131 @@ a {
     position: relative;
     min-height: 520px;
 }
+
+.pet-stage {
+    position: absolute;
+    inset: 35px 20px 20px 20px;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 42% 42% 34% 34% / 30% 30% 42% 42%;
+    background: linear-gradient(160deg, #e1f1e7, #c4e2cf);
+}
+
+.pet-stage::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 50% 33%, rgba(255,255,255,.72), transparent 38%);
+    pointer-events: none;
+}
+
+.sun-shape {
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    top: 38px;
+    right: 40px;
+    border-radius: 50%;
+    background: rgba(246, 204, 101, .62);
+}
+
+.pet-shadow {
+    position: absolute;
+    width: 240px;
+    height: 50px;
+    bottom: 56px;
+    border-radius: 50%;
+    background: rgba(31, 77, 58, .12);
+    filter: blur(8px);
+}
+
+.pet-image {
+    position: relative;
+    z-index: 2;
+    width: min(88%, 500px);
+    transform: translateY(14px);
+    filter: drop-shadow(0 28px 26px rgba(31, 77, 58, .15));
+}
+
+.pet-orbit {
+    position: absolute;
+    border: 1px dashed rgba(31, 77, 58, .18);
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.orbit-one {
+    width: 410px;
+    height: 410px;
+    top: 42px;
+    left: 78px;
+}
+
+.orbit-two {
+    width: 470px;
+    height: 470px;
+    top: 8px;
+    left: 48px;
+}
+
+.hero-card {
+    position: absolute;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 13px 17px;
+    background: rgba(255,255,255,.94);
+    border: 1px solid rgba(255,255,255,.88);
+    border-radius: 18px;
+    box-shadow: var(--shadow);
+}
+
+.hero-card span {
+    font-size: 1.25rem;
+}
+
+.hero-card strong,
+.hero-card small {
+    display: block;
+}
+
+.hero-card strong {
+    line-height: 1.05;
+}
+
+.hero-card small {
+    color: var(--muted);
+    font-size: .72rem;
+}
+
+.hero-card-top {
+    top: 28px;
+    right: -5px;
+}
+
+.hero-card-bottom {
+    bottom: 36px;
+    left: -8px;
+}
+
+.hero-decoration {
+    position: absolute;
+    pointer-events: none;
+}
+
+.hero-decoration-one {
+    top: 120px;
+    left: 5%;
+    font-size: 3rem;
+    color: rgba(239,139,103,.2);
+}
+
+.hero-decoration-two {
+    right: 4%;
+    bottom: 50px;
+    font-size: 5rem;
+    transform: rotate(16deg);
+    opacity: .18;
+}
