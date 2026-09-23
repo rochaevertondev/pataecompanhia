@@ -1,165 +1,141 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Pata & Companhia Pet Shop — carinho, cuidado e bem-estar para cães e gatos."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Nunito:wght@700;800;900&display=swap"
-      rel="stylesheet"
-    />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pata & Companhia Pet Shop — carinho, cuidado e bem-estar para cães e gatos.">
+    <title>Pata & Companhia | Pet Shop</title>
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Nunito:wght@700;800;900&display=swap" rel="stylesheet">
 
-    <title>Pata & Companhia</title>
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="container nav-container">
-        <a class="brand" href="#inicio" aria-label="Pata & Companhia - início">
-          <span>
-            <strong>Pata &</strong>
-            <small>Companhia</small>
-          </span>
-        </a>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header" id="inicio">
+        <div class="container nav-container">
+            <a class="brand" href="#inicio" aria-label="Pata & Companhia - início">
+                <span class="brand-mark">🐾</span>
+                <span>
+                    <strong>Pata &</strong>
+                    <small>Companhia</small>
+                </span>
+            </a>
 
-        <button
-          class="menu-toggle"
-          id="menuToggle"
-          type="button"
-          aria-label="Abrir menu"
-          aria-expanded="false"
-        >
-          <span></span><span></span><span></span>
-        </button>
+            <button class="menu-toggle" id="menuToggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
 
-        <nav class="main-nav" id="mainNav" aria-label="Navegação principal">
-          <a href="#sobre">Sobre</a>
-          <a href="#servicos">Serviços</a>
-          <a href="#diferenciais">Diferenciais</a>
-          <a href="#contato">Contato</a>
-          <a class="nav-cta" href="#contato">Agendar agora</a>
-        </nav>
-      </div>
+            <nav class="main-nav" id="mainNav" aria-label="Navegação principal">
+                <a href="#sobre">Sobre</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#diferenciais">Diferenciais</a>
+                <a href="#contato">Contato</a>
+                <a class="nav-cta" href="#contato">Agendar agora</a>
+            </nav>
+        </div>
     </header>
 
     <main>
-      <section class="hero section" aria-labelledby="hero-title">
-        <div class="hero-decoration hero-decoration-one" aria-hidden="true">
-          ✦
-        </div>
-        <div class="hero-decoration hero-decoration-two" aria-hidden="true">
-          🐾
-        </div>
+        <section class="hero section" aria-labelledby="hero-title">
+            <div class="hero-decoration hero-decoration-one" aria-hidden="true">✦</div>
+            <div class="hero-decoration hero-decoration-two" aria-hidden="true">🐾</div>
 
-        <div class="container hero-grid">
-          <div class="hero-copy">
-            <p class="eyebrow">Cuidado que vira carinho</p>
-            <h1 id="hero-title">
-              Seu pet feliz.<br /><span>Você tranquilo.</span>
-            </h1>
-            <p class="hero-text">
-              Banho, tosa, cuidados e produtos escolhidos para deixar a rotina
-              do seu melhor amigo mais leve, segura e divertida.
-            </p>
+            <div class="container hero-grid reveal">
+                <div class="hero-copy">
+                    <p class="eyebrow">🐶 Cuidado que vira carinho</p>
+                    <h1 id="hero-title">Seu pet feliz.<br><span>Você tranquilo.</span></h1>
+                    <p class="hero-text">
+                        Banho, tosa, cuidados e produtos escolhidos para deixar a rotina
+                        do seu melhor amigo mais leve, segura e divertida.
+                    </p>
 
-            <div class="hero-actions">
-              <a class="button button-primary" href="#contato"
-                >Quero agendar <span>→</span></a
-              >
-              <a class="button button-secondary" href="#servicos"
-                >Conhecer serviços</a
-              >
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="#contato">Quero agendar <span>→</span></a>
+                        <a class="button button-secondary" href="#servicos">Conhecer serviços</a>
+                    </div>
+
+                    <div class="hero-trust">
+                        <div class="avatar-stack" aria-hidden="true">
+                            <span>🐕</span><span>🐈</span><span>🐩</span>
+                        </div>
+                        <div>
+                            <strong>+2.500 pets</strong>
+                            <small>já passaram por aqui</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="hero-card hero-card-top">
+                        <span>⭐</span>
+                        <div><strong>5,0</strong><small>avaliação</small></div>
+                    </div>
+
+                    <div class="pet-orbit orbit-one"></div>
+                    <div class="pet-orbit orbit-two"></div>
+
+                    <div class="pet-stage">
+                        <div class="sun-shape"></div>
+                        <div class="pet-shadow"></div>
+                        <img src="image/pet-hero.svg" alt="Ilustração de cachorro feliz" class="pet-image">
+                    </div>
+
+                    <div class="hero-card hero-card-bottom">
+                        <span>💚</span>
+                        <div><strong>Carinho</strong><small>em cada detalhe</small></div>
+                    </div>
+                </div>
             </div>
+        </section>
 
-            <div class="hero-trust">
-              <div class="avatar-stack" aria-hidden="true">
-                <span>🐕</span><span>🐈</span><span>🐩</span>
-              </div>
-              <div>
-                <strong>+2.500 pets</strong>
-                <small>já passaram por aqui</small>
-              </div>
-            </div>
-          </div>
+        <section class="about section" id="sobre" aria-labelledby="about-title">
+            <div class="container about-grid reveal">
+                <div class="about-visual">
+                    <div class="about-image-main">
+                        <img src="image/pet-care.svg" alt="Ilustração de profissional cuidando de um pet">
+                    </div>
+                    <div class="experience-badge">
+                        <strong>8</strong>
+                        <span>anos de<br>experiência</span>
+                    </div>
+                </div>
 
-          <div class="hero-visual">
-            <div class="hero-card hero-card-top">
-              <span>⭐</span>
-              <div><strong>5,0</strong><small>avaliação</small></div>
-            </div>
-            <div class="pet-orbit orbit-one"></div>
-            <div class="pet-orbit orbit-two"></div>
-            <div class="pet-stage">
-              <div class="sun-shape"></div>
-              <div class="pet-shadow"></div>
-              <img
-                src="image/pet-hero.svg"
-                alt="cachorro feliz"
-                class="pet-image"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
+                <div class="about-content">
+                    <p class="section-kicker">Sobre a Pata & Companhia</p>
+                    <h2 id="about-title">Um espaço feito para <span>eles</span> — e para você.</h2>
+                    <p>
+                        A Pata & Companhia nasceu para unir atendimento atencioso, ambiente
+                        acolhedor e serviços de qualidade. Nosso objetivo é cuidar de cada pet
+                        respeitando sua personalidade, sua rotina e seu bem-estar.
+                    </p>
+                    <p>
+                        Aqui, cada visita é pensada para ser tranquila e positiva. A família
+                        acompanha o cuidado de perto e encontra uma equipe preparada para
+                        orientar nas pequenas decisões do dia a dia.
+                    </p>
 
-      <section class="about section" id="sobre" aria-labelledby="about-title">
-        <div class="container about-grid">
-          <div class="about-visual">
-            <div class="about-image-main">
-              <img
-                src="image/pet-care.svg"
-                alt="Ilustração de profissional cuidando de um pet"
-              />
+                    <div class="stats-grid" id="diferenciais">
+                        <div class="stat-card">
+                            <strong>2,5k+</strong>
+                            <span>pets atendidos</span>
+                        </div>
+                        <div class="stat-card">
+                            <strong>98%</strong>
+                            <span>clientes recorrentes</span>
+                        </div>
+                        <div class="stat-card">
+                            <strong>8 anos</strong>
+                            <span>de experiência</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="experience-badge">
-              <strong>8</strong>
-              <span>anos de<br />experiência</span>
-            </div>
-          </div>
+        </section>
 
-          <div class="about-content">
-            <p class="section-kicker">Sobre a Pata & Companhia</p>
-            <h2 id="about-title">
-              Um espaço feito para <span>eles</span> — e para você.
-            </h2>
-            <p>
-              A Pata & Companhia nasceu para unir atendimento atencioso,
-              ambiente acolhedor e serviços de qualidade. Nosso objetivo é
-              cuidar de cada pet respeitando sua personalidade, sua rotina e seu
-              bem-estar.
-            </p>
-            <p>
-              Aqui, cada visita é pensada para ser tranquila e positiva. A
-              família acompanha o cuidado de perto e encontra uma equipe
-              preparada para orientar nas pequenas decisões do dia a dia.
-            </p>
-
-            <div class="stats-grid" id="diferenciais">
-              <div class="stat-card">
-                <strong>2,5k+</strong>
-                <span>pets atendidos</span>
-              </div>
-              <div class="stat-card">
-                <strong>98%</strong>
-                <span>clientes recorrentes</span>
-              </div>
-              <div class="stat-card">
-                <strong>8 anos</strong>
-                <span>de experiência</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
- <section class="services section" id="servicos" aria-labelledby="services-title">
-            <div class="container">
+        <section class="services section" id="servicos" aria-labelledby="services-title">
+            <div class="container reveal">
                 <div class="section-heading">
                     <div>
                         <p class="section-kicker">O que fazemos</p>
@@ -215,16 +191,16 @@
             </div>
         </section>
 
-     <section class="contact section" id="contato" aria-labelledby="contact-title">
-            <div class="container contact-box">
+        <section class="contact section" id="contato" aria-labelledby="contact-title">
+            <div class="container contact-box reveal">
                 <div class="contact-info">
                     <p class="section-kicker">Fale com a gente</p>
                     <h2 id="contact-title">Vamos marcar o próximo <span>mimo?</span></h2>
                     <p>Preencha o formulário e nossa equipe entrará em contato para confirmar o atendimento.</p>
 
                     <div class="contact-list">
-                        <a href="tel:+554832101234"><span>📞</span> (48) 3210-1234</a>
-                        <a href="mailto:everton@pataecompanhia.com.br"><span>✉️</span> everton@pataecompanhia.com.br</a>
+                        <a href="tel:+554832220202"><span>📞</span> (48) 3222-0202</a>
+                        <a href="mailto:oi@pataecompanhia.com.br"><span>✉️</span> oi@pataecompanhia.com.br</a>
                         <span><span>📍</span> São José — Santa Catarina</span>
                     </div>
                 </div>
@@ -270,7 +246,7 @@
         </section>
     </main>
 
-   <footer class="site-footer">
+    <footer class="site-footer">
         <div class="container footer-inner">
             <div class="brand footer-brand">
                 <span class="brand-mark">🐾</span>
@@ -282,5 +258,7 @@
             <p>© 2026 Pata & Companhia.</p>
         </div>
     </footer>
-  </body>
+
+    <script src="script.js"></script>
+</body>
 </html>
