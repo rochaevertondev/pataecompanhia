@@ -635,3 +635,26 @@ a {
     font-weight: 700;
     text-align: center;
 }
+
+.site-footer {
+    background: #18392c;
+    color: rgba(255,255,255,.72);
+}
+
+.footer-inner {
+    min-height: 94px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.footer-brand {
+    color: var(--white);
+    flex-shrink: 0;
+}
+
+.footer-inner p {
+    font-size: .77rem;
+    text-align: right;
+}
