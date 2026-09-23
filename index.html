@@ -215,79 +215,59 @@
             </div>
         </section>
 
-      <section id="contato" aria-labelledby="contact-title">
-        <div class="container contact-box">
-          <div>
-            <p>Fale com a gente</p>
-            <h2 id="contact-title">
-              Vamos marcar o próximo <span>mimo?</span>
-            </h2>
-            <p>
-              Preencha o formulário e nossa equipe entrará em contato para
-              confirmar o atendimento.
-            </p>
+     <section class="contact section" id="contato" aria-labelledby="contact-title">
+            <div class="container contact-box">
+                <div class="contact-info">
+                    <p class="section-kicker">Fale com a gente</p>
+                    <h2 id="contact-title">Vamos marcar o próximo <span>mimo?</span></h2>
+                    <p>Preencha o formulário e nossa equipe entrará em contato para confirmar o atendimento.</p>
 
-            <div>
-              <a href="tel:+554832220202"> (48) 3222-0202</a>
-              <a href="mailto:oi@pataecompanhia.com.br">
-                oi@pataecompanhia.com.br</a
-              >
-              <span>São José — Santa Catarina</span>
+                    <div class="contact-list">
+                        <a href="tel:+554832101234"><span>📞</span> (48) 3210-1234</a>
+                        <a href="mailto:everton@pataecompanhia.com.br"><span>✉️</span> everton@pataecompanhia.com.br</a>
+                        <span><span>📍</span> São José — Santa Catarina</span>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm" novalidate>
+                    <div class="form-row">
+                        <label>
+                            Nome
+                            <input type="text" id="name" name="name" placeholder="Seu nome" required>
+                            <small class="field-error" id="nameError"></small>
+                        </label>
+
+                        <label>
+                            E-mail
+                            <input type="email" id="email" name="email" placeholder="voce@email.com" required>
+                            <small class="field-error" id="emailError"></small>
+                        </label>
+                    </div>
+
+                    <label>
+                        Assunto
+                        <select id="subject" name="subject" required>
+                            <option value="">Selecione uma opção</option>
+                            <option>Banho & Tosa</option>
+                            <option>Cuidados</option>
+                            <option>Produtos</option>
+                            <option>Plano de carinho</option>
+                            <option>Outro assunto</option>
+                        </select>
+                        <small class="field-error" id="subjectError"></small>
+                    </label>
+
+                    <label>
+                        Mensagem
+                        <textarea id="message" name="message" rows="5" placeholder="Conte como podemos ajudar..." required></textarea>
+                        <small class="field-error" id="messageError"></small>
+                    </label>
+
+                    <button class="button button-primary button-full" type="submit">Enviar mensagem <span>→</span></button>
+                    <p class="form-feedback" id="formFeedback" role="status" aria-live="polite"></p>
+                </form>
             </div>
-          </div>
-
-          <form id="contactForm" novalidate>
-            <div>
-              <label>
-                Nome
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  placeholder="Seu nome"
-                  required
-                />
-              </label>
-
-              <label>
-                E-mail
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="voce@email.com"
-                  required
-                />
-              </label>
-            </div>
-
-            <label>
-              Assunto
-              <select id="subject" name="subject" required>
-                <option value="">Selecione uma opção</option>
-                <option>Banho & Tosa</option>
-                <option>Cuidados</option>
-                <option>Produtos</option>
-                <option>Plano de carinho</option>
-                <option>Outro assunto</option>
-              </select>
-            </label>
-
-            <label>
-              Mensagem
-              <textarea
-                id="message"
-                name="message"
-                rows="5"
-                placeholder="Conte como podemos ajudar..."
-                required
-              ></textarea>
-            </label>
-
-            <button type="submit">Enviar mensagem <span>→</span></button>
-          </form>
-        </div>
-      </section>
+        </section>
     </main>
 
     <footer>
